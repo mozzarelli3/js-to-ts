@@ -5,7 +5,7 @@ let currentDisplayTS: string = "0";
 let resultDisplayTS: boolean = false; 
 
 function appendToDisplayTS(value: string): void {
-  if (currentDisplayTS === "0" || resultDisplay) {
+  if (currentDisplayTS === "0" || resultDisplayTS) {
     currentDisplayTS = value;
   } else {
     currentDisplayTS += value;
